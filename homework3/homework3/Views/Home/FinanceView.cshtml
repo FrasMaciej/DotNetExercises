@@ -1,0 +1,47 @@
+﻿@model IEnumerable<homework3.Models.Finance>
+
+@{
+    ViewData["Title"] = "Operacje finansowe";
+}
+
+<h1>Finanse</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Indeks operacji
+            </th>
+            <th>
+                Indeks Pizzy
+            </th>
+            <th>
+                Opis
+            </th>
+            <th>
+                Wpływ
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.FinanceId)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.PizzaId)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Description)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Sum)
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

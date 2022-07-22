@@ -1,0 +1,612 @@
+2022-06-05 00:18:26.123 +02:00 [Information] [Microsoft.Hosting.Lifetime] | Application started. Press Ctrl+C to shut down.
+2022-06-05 00:18:26.141 +02:00 [Information] [Microsoft.Hosting.Lifetime] | Hosting environment: "Development"
+2022-06-05 00:18:26.142 +02:00 [Information] [Microsoft.Hosting.Lifetime] | Content root path: "D:\Kredek_repos\homework6\homework5"
+2022-06-05 00:18:26.142 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request starting HTTP/2.0 GET https://localhost:44377/swagger/index.html  
+2022-06-05 00:18:26.192 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request finished in 54.5519ms 200 text/html;charset=utf-8
+2022-06-05 00:18:26.503 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request starting HTTP/2.0 GET https://localhost:44377/swagger/v1/swagger.json  
+2022-06-05 00:18:26.621 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request finished in 115.4616ms 200 application/json;charset=utf-8
+2022-06-05 00:24:34.723 +02:00 [Information] [Microsoft.Hosting.Lifetime] | Application started. Press Ctrl+C to shut down.
+2022-06-05 00:24:34.746 +02:00 [Information] [Microsoft.Hosting.Lifetime] | Hosting environment: "Development"
+2022-06-05 00:24:34.748 +02:00 [Information] [Microsoft.Hosting.Lifetime] | Content root path: "D:\Kredek_repos\homework6\homework5"
+2022-06-05 00:24:34.749 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request starting HTTP/2.0 GET https://localhost:44377/swagger/index.html  
+2022-06-05 00:24:34.858 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request finished in 116.9946ms 200 text/html;charset=utf-8
+2022-06-05 00:24:35.159 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request starting HTTP/2.0 GET https://localhost:44377/swagger/v1/swagger.json  
+2022-06-05 00:24:35.240 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request finished in 81.0724ms 200 application/json;charset=utf-8
+2022-06-05 00:24:39.449 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request starting HTTP/2.0 GET https://localhost:44377/api/Car  
+2022-06-05 00:24:39.475 +02:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] | Executing endpoint '"homework5.Controllers.CarController.GetCars (homework5)"'
+2022-06-05 00:24:39.506 +02:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] | Route matched with "{action = \"GetCars\", controller = \"Car\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetCars(Int32)" on controller "homework5.Controllers.CarController" ("homework5").
+2022-06-05 00:24:39.612 +02:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] | Executing ObjectResult, writing value of type '"homework5.Dtos.Car.GetAllCarsDto"'.
+2022-06-05 00:24:39.621 +02:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] | Executed action "homework5.Controllers.CarController.GetCars (homework5)" in 111.319ms
+2022-06-05 00:24:39.623 +02:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] | Executed endpoint '"homework5.Controllers.CarController.GetCars (homework5)"'
+2022-06-05 00:24:39.623 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request finished in 174.2039ms 200 application/json; charset=utf-8
+2022-06-05 00:24:46.873 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request starting HTTP/2.0 DELETE https://localhost:44377/api/Car/3  
+2022-06-05 00:24:46.878 +02:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] | Executing endpoint '"homework5.Controllers.CarController.DeleteCar (homework5)"'
+2022-06-05 00:24:46.882 +02:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] | Route matched with "{action = \"DeleteCar\", controller = \"Car\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult DeleteCar(Int32)" on controller "homework5.Controllers.CarController" ("homework5").
+2022-06-05 00:24:46.885 +02:00 [Warning] [homework5.Services.CarService] | Deleted car with id: 3
+2022-06-05 00:24:46.890 +02:00 [Information] [Microsoft.AspNetCore.Mvc.StatusCodeResult] | Executing HttpStatusCodeResult, setting HTTP status code 204
+2022-06-05 00:24:46.890 +02:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] | Executed action "homework5.Controllers.CarController.DeleteCar (homework5)" in 7.3566ms
+2022-06-05 00:24:46.890 +02:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] | Executed endpoint '"homework5.Controllers.CarController.DeleteCar (homework5)"'
+2022-06-05 00:24:46.891 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request finished in 18.3049ms 204 
+2022-06-05 00:42:27.559 +02:00 [Information] [Microsoft.Hosting.Lifetime] | Application started. Press Ctrl+C to shut down.
+2022-06-05 00:42:27.574 +02:00 [Information] [Microsoft.Hosting.Lifetime] | Hosting environment: "Development"
+2022-06-05 00:42:27.575 +02:00 [Information] [Microsoft.Hosting.Lifetime] | Content root path: "D:\Kredek_repos\homework6\homework5"
+2022-06-05 00:42:27.578 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request starting HTTP/2.0 GET https://localhost:44377/swagger/index.html  
+2022-06-05 00:42:27.628 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request finished in 54.3416ms 200 text/html;charset=utf-8
+2022-06-05 00:42:27.910 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request starting HTTP/2.0 GET https://localhost:44377/swagger/v1/swagger.json  
+2022-06-05 00:42:28.005 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request finished in 94.6186ms 200 application/json;charset=utf-8
+2022-06-05 00:42:54.571 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request starting HTTP/2.0 POST https://localhost:44377/api/Car application/json 57
+2022-06-05 00:42:54.607 +02:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] | Executing endpoint '"homework5.Controllers.CarController.CreateCar (homework5)"'
+2022-06-05 00:42:54.639 +02:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] | Route matched with "{action = \"CreateCar\", controller = \"Car\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult CreateCar(homework5.Dtos.Car.CreateCarDto)" on controller "homework5.Controllers.CarController" ("homework5").
+2022-06-05 00:42:54.796 +02:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] | Executing ObjectResult, writing value of type '"Microsoft.AspNetCore.Mvc.ValidationProblemDetails"'.
+2022-06-05 00:42:54.804 +02:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] | Executed action "homework5.Controllers.CarController.CreateCar (homework5)" in 160.7696ms
+2022-06-05 00:42:54.805 +02:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] | Executed endpoint '"homework5.Controllers.CarController.CreateCar (homework5)"'
+2022-06-05 00:42:54.805 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request finished in 236.4558ms 400 application/problem+json; charset=utf-8
+2022-06-05 00:45:02.473 +02:00 [Information] [Microsoft.Hosting.Lifetime] | Application started. Press Ctrl+C to shut down.
+2022-06-05 00:45:02.489 +02:00 [Information] [Microsoft.Hosting.Lifetime] | Hosting environment: "Development"
+2022-06-05 00:45:02.490 +02:00 [Information] [Microsoft.Hosting.Lifetime] | Content root path: "D:\Kredek_repos\homework6\homework5"
+2022-06-05 00:45:02.490 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request starting HTTP/2.0 GET https://localhost:44377/swagger/index.html  
+2022-06-05 00:45:02.540 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request finished in 55.3385ms 200 text/html;charset=utf-8
+2022-06-05 00:45:02.917 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request starting HTTP/2.0 GET https://localhost:44377/swagger/v1/swagger.json  
+2022-06-05 00:45:03.003 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request finished in 86.3029ms 200 application/json;charset=utf-8
+2022-06-05 00:45:18.737 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request starting HTTP/2.0 POST https://localhost:44377/api/Car application/json 59
+2022-06-05 00:45:18.763 +02:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] | Executing endpoint '"homework5.Controllers.CarController.CreateCar (homework5)"'
+2022-06-05 00:45:18.793 +02:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] | Route matched with "{action = \"CreateCar\", controller = \"Car\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult CreateCar(homework5.Dtos.Car.CreateCarDto)" on controller "homework5.Controllers.CarController" ("homework5").
+2022-06-05 00:45:18.945 +02:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] | Executing ObjectResult, writing value of type '"Microsoft.AspNetCore.Mvc.ValidationProblemDetails"'.
+2022-06-05 00:45:18.954 +02:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] | Executed action "homework5.Controllers.CarController.CreateCar (homework5)" in 154.6278ms
+2022-06-05 00:45:18.955 +02:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] | Executed endpoint '"homework5.Controllers.CarController.CreateCar (homework5)"'
+2022-06-05 00:45:18.955 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request finished in 220.0492ms 400 application/problem+json; charset=utf-8
+2022-06-05 00:57:46.846 +02:00 [Information] [Microsoft.Hosting.Lifetime] | Application started. Press Ctrl+C to shut down.
+2022-06-05 00:57:46.860 +02:00 [Information] [Microsoft.Hosting.Lifetime] | Hosting environment: "Development"
+2022-06-05 00:57:46.861 +02:00 [Information] [Microsoft.Hosting.Lifetime] | Content root path: "D:\Kredek_repos\homework6\homework5"
+2022-06-05 00:57:46.864 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request starting HTTP/2.0 GET https://localhost:44377/swagger/index.html  
+2022-06-05 00:57:46.943 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request finished in 83.6179ms 200 text/html;charset=utf-8
+2022-06-05 00:57:47.280 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request starting HTTP/2.0 GET https://localhost:44377/swagger/v1/swagger.json  
+2022-06-05 00:57:47.375 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request finished in 95.2544ms 200 application/json;charset=utf-8
+2022-06-05 00:58:17.131 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request starting HTTP/2.0 POST https://localhost:44377/api/Car application/json 59
+2022-06-05 00:58:17.161 +02:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] | Executing endpoint '"homework5.Controllers.CarController.CreateCar (homework5)"'
+2022-06-05 00:58:17.189 +02:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] | Route matched with "{action = \"CreateCar\", controller = \"Car\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult CreateCar(homework5.Dtos.Car.CreateCarDto)" on controller "homework5.Controllers.CarController" ("homework5").
+2022-06-05 00:58:17.317 +02:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] | Executing ObjectResult, writing value of type '"System.Int32"'.
+2022-06-05 00:58:17.323 +02:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] | Executed action "homework5.Controllers.CarController.CreateCar (homework5)" in 129.7728ms
+2022-06-05 00:58:17.324 +02:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] | Executed endpoint '"homework5.Controllers.CarController.CreateCar (homework5)"'
+2022-06-05 00:58:17.324 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request finished in 197.4939ms 201 application/json; charset=utf-8
+2022-06-05 01:01:31.969 +02:00 [Information] [Microsoft.Hosting.Lifetime] | Application started. Press Ctrl+C to shut down.
+2022-06-05 01:01:31.991 +02:00 [Information] [Microsoft.Hosting.Lifetime] | Hosting environment: "Development"
+2022-06-05 01:01:31.993 +02:00 [Information] [Microsoft.Hosting.Lifetime] | Content root path: "D:\Kredek_repos\homework6\homework5"
+2022-06-05 01:01:32.004 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request starting HTTP/2.0 GET https://localhost:44377/swagger/index.html  
+2022-06-05 01:01:32.091 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request finished in 93.1532ms 200 text/html;charset=utf-8
+2022-06-05 01:01:32.485 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request starting HTTP/2.0 GET https://localhost:44377/swagger/v1/swagger.json  
+2022-06-05 01:01:32.607 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request finished in 121.8551ms 200 application/json;charset=utf-8
+2022-06-05 01:01:52.886 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request starting HTTP/2.0 POST https://localhost:44377/api/Car application/json 59
+2022-06-05 01:01:52.913 +02:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] | Executing endpoint '"homework5.Controllers.CarController.CreateCar (homework5)"'
+2022-06-05 01:01:52.941 +02:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] | Route matched with "{action = \"CreateCar\", controller = \"Car\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult CreateCar(homework5.Dtos.Car.CreateCarDto)" on controller "homework5.Controllers.CarController" ("homework5").
+2022-06-05 01:04:41.083 +02:00 [Information] [Microsoft.Hosting.Lifetime] | Application started. Press Ctrl+C to shut down.
+2022-06-05 01:04:41.101 +02:00 [Information] [Microsoft.Hosting.Lifetime] | Hosting environment: "Development"
+2022-06-05 01:04:41.102 +02:00 [Information] [Microsoft.Hosting.Lifetime] | Content root path: "D:\Kredek_repos\homework6\homework5"
+2022-06-05 01:04:41.104 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request starting HTTP/2.0 GET https://localhost:44377/swagger/index.html  
+2022-06-05 01:04:41.168 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request finished in 67.7807ms 200 text/html;charset=utf-8
+2022-06-05 01:04:41.510 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request starting HTTP/2.0 GET https://localhost:44377/swagger/v1/swagger.json  
+2022-06-05 01:04:41.591 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request finished in 81.7848ms 200 application/json;charset=utf-8
+2022-06-05 01:05:02.871 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request starting HTTP/2.0 POST https://localhost:44377/api/Car application/json 59
+2022-06-05 01:05:02.904 +02:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] | Executing endpoint '"homework5.Controllers.CarController.CreateCar (homework5)"'
+2022-06-05 01:05:02.933 +02:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] | Route matched with "{action = \"CreateCar\", controller = \"Car\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult CreateCar(homework5.Dtos.Car.CreateCarDto)" on controller "homework5.Controllers.CarController" ("homework5").
+2022-06-05 01:05:03.095 +02:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] | Executing ObjectResult, writing value of type '"Microsoft.AspNetCore.Mvc.ValidationProblemDetails"'.
+2022-06-05 01:05:03.102 +02:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] | Executed action "homework5.Controllers.CarController.CreateCar (homework5)" in 164.3586ms
+2022-06-05 01:05:03.103 +02:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] | Executed endpoint '"homework5.Controllers.CarController.CreateCar (homework5)"'
+2022-06-05 01:05:03.103 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request finished in 232.7696ms 400 application/problem+json; charset=utf-8
+2022-06-05 20:59:59.802 +02:00 [Information] [Microsoft.Hosting.Lifetime] | Application started. Press Ctrl+C to shut down.
+2022-06-05 20:59:59.837 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request starting HTTP/2.0 GET https://localhost:44377/swagger/index.html  
+2022-06-05 20:59:59.843 +02:00 [Information] [Microsoft.Hosting.Lifetime] | Hosting environment: "Development"
+2022-06-05 20:59:59.843 +02:00 [Information] [Microsoft.Hosting.Lifetime] | Content root path: "D:\Kredek_repos\homework6\homework5"
+2022-06-05 20:59:59.924 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request finished in 91.8973ms 200 text/html;charset=utf-8
+2022-06-05 21:00:00.998 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request starting HTTP/2.0 GET https://localhost:44377/swagger/v1/swagger.json  
+2022-06-05 21:00:01.027 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request starting HTTP/2.0 GET https://localhost:44377/swagger/favicon-32x32.png  
+2022-06-05 21:00:01.079 +02:00 [Information] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] | The file "/favicon-32x32.png" was not modified
+2022-06-05 21:00:01.080 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request finished in 53.7309ms 304 image/png
+2022-06-05 21:00:01.124 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request finished in 126.8779ms 200 application/json;charset=utf-8
+2022-06-05 21:00:14.409 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request starting HTTP/2.0 POST https://localhost:44377/api/Car application/json 59
+2022-06-05 21:00:14.430 +02:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] | Executing endpoint '"homework5.Controllers.CarController.CreateCar (homework5)"'
+2022-06-05 21:00:14.460 +02:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] | Route matched with "{action = \"CreateCar\", controller = \"Car\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult CreateCar(homework5.Dtos.Car.CreateCarDto)" on controller "homework5.Controllers.CarController" ("homework5").
+2022-06-05 21:00:14.647 +02:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] | Executing ObjectResult, writing value of type '"Microsoft.AspNetCore.Mvc.ValidationProblemDetails"'.
+2022-06-05 21:00:14.655 +02:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] | Executed action "homework5.Controllers.CarController.CreateCar (homework5)" in 190.6702ms
+2022-06-05 21:00:14.657 +02:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] | Executed endpoint '"homework5.Controllers.CarController.CreateCar (homework5)"'
+2022-06-05 21:00:14.657 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request finished in 249.6448ms 400 application/problem+json; charset=utf-8
+2022-06-05 21:01:00.459 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request starting HTTP/2.0 POST https://localhost:44377/api/Car application/json 59
+2022-06-05 21:01:00.460 +02:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] | Executing endpoint '"homework5.Controllers.CarController.CreateCar (homework5)"'
+2022-06-05 21:01:00.461 +02:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] | Route matched with "{action = \"CreateCar\", controller = \"Car\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult CreateCar(homework5.Dtos.Car.CreateCarDto)" on controller "homework5.Controllers.CarController" ("homework5").
+2022-06-05 21:01:00.467 +02:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] | Executing ObjectResult, writing value of type '"Microsoft.AspNetCore.Mvc.ValidationProblemDetails"'.
+2022-06-05 21:01:00.473 +02:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] | Executed action "homework5.Controllers.CarController.CreateCar (homework5)" in 11.7866ms
+2022-06-05 21:01:00.473 +02:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] | Executed endpoint '"homework5.Controllers.CarController.CreateCar (homework5)"'
+2022-06-05 21:01:00.473 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request finished in 18.8563ms 400 application/problem+json; charset=utf-8
+2022-06-05 21:04:20.793 +02:00 [Information] [Microsoft.Hosting.Lifetime] | Application started. Press Ctrl+C to shut down.
+2022-06-05 21:04:20.809 +02:00 [Information] [Microsoft.Hosting.Lifetime] | Hosting environment: "Development"
+2022-06-05 21:04:20.810 +02:00 [Information] [Microsoft.Hosting.Lifetime] | Content root path: "D:\Kredek_repos\homework6\homework5"
+2022-06-05 21:04:20.812 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request starting HTTP/2.0 GET https://localhost:44377/swagger/index.html  
+2022-06-05 21:04:20.861 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request finished in 52.8428ms 200 text/html;charset=utf-8
+2022-06-05 21:04:21.194 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request starting HTTP/2.0 GET https://localhost:44377/swagger/v1/swagger.json  
+2022-06-05 21:04:21.280 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request finished in 85.6769ms 200 application/json;charset=utf-8
+2022-06-05 21:05:43.055 +02:00 [Information] [Microsoft.Hosting.Lifetime] | Application started. Press Ctrl+C to shut down.
+2022-06-05 21:05:43.070 +02:00 [Information] [Microsoft.Hosting.Lifetime] | Hosting environment: "Development"
+2022-06-05 21:05:43.072 +02:00 [Information] [Microsoft.Hosting.Lifetime] | Content root path: "D:\Kredek_repos\homework6\homework5"
+2022-06-05 21:05:43.076 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request starting HTTP/2.0 GET https://localhost:44377/swagger/index.html  
+2022-06-05 21:05:43.145 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request finished in 74.3831ms 200 text/html;charset=utf-8
+2022-06-05 21:05:43.488 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request starting HTTP/2.0 GET https://localhost:44377/swagger/v1/swagger.json  
+2022-06-05 21:05:43.606 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request finished in 118.0825ms 200 application/json;charset=utf-8
+2022-06-05 21:18:28.054 +02:00 [Information] [Microsoft.Hosting.Lifetime] | Application started. Press Ctrl+C to shut down.
+2022-06-05 21:18:28.078 +02:00 [Information] [Microsoft.Hosting.Lifetime] | Hosting environment: "Development"
+2022-06-05 21:18:28.078 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request starting HTTP/2.0 GET https://localhost:44377/swagger/index.html  
+2022-06-05 21:18:28.080 +02:00 [Information] [Microsoft.Hosting.Lifetime] | Content root path: "D:\Kredek_repos\homework6\homework5"
+2022-06-05 21:18:28.166 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request finished in 94.3175ms 200 text/html;charset=utf-8
+2022-06-05 21:18:28.579 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request starting HTTP/2.0 GET https://localhost:44377/swagger/v1/swagger.json  
+2022-06-05 21:18:28.670 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request finished in 90.7891ms 200 application/json;charset=utf-8
+2022-06-05 21:21:04.526 +02:00 [Information] [Microsoft.Hosting.Lifetime] | Application started. Press Ctrl+C to shut down.
+2022-06-05 21:21:04.550 +02:00 [Information] [Microsoft.Hosting.Lifetime] | Hosting environment: "Development"
+2022-06-05 21:21:04.551 +02:00 [Information] [Microsoft.Hosting.Lifetime] | Content root path: "D:\Kredek_repos\homework6\homework5"
+2022-06-05 21:21:04.554 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request starting HTTP/2.0 GET https://localhost:44377/swagger/index.html  
+2022-06-05 21:21:04.624 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request finished in 74.9596ms 200 text/html;charset=utf-8
+2022-06-05 21:21:07.731 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request starting HTTP/2.0 GET https://localhost:44377/swagger/v1/swagger.json  
+2022-06-05 21:21:07.809 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request finished in 75.6539ms 200 application/json;charset=utf-8
+2022-06-05 21:46:07.421 +02:00 [Information] [Microsoft.Hosting.Lifetime] | Application started. Press Ctrl+C to shut down.
+2022-06-05 21:46:07.441 +02:00 [Information] [Microsoft.Hosting.Lifetime] | Hosting environment: "Development"
+2022-06-05 21:46:07.442 +02:00 [Information] [Microsoft.Hosting.Lifetime] | Content root path: "D:\Kredek_repos\homework6\homework5"
+2022-06-05 21:46:07.472 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request starting HTTP/2.0 GET https://localhost:44377/swagger/index.html  
+2022-06-05 21:46:07.532 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request finished in 62.7455ms 200 text/html;charset=utf-8
+2022-06-05 21:46:07.885 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request starting HTTP/2.0 GET https://localhost:44377/swagger/v1/swagger.json  
+2022-06-05 21:46:07.962 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request finished in 75.2011ms 200 application/json;charset=utf-8
+2022-06-05 21:49:04.761 +02:00 [Information] [Microsoft.Hosting.Lifetime] | Application started. Press Ctrl+C to shut down.
+2022-06-05 21:49:04.781 +02:00 [Information] [Microsoft.Hosting.Lifetime] | Hosting environment: "Development"
+2022-06-05 21:49:04.784 +02:00 [Information] [Microsoft.Hosting.Lifetime] | Content root path: "D:\Kredek_repos\homework6\homework5"
+2022-06-05 21:49:04.781 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request starting HTTP/2.0 GET https://localhost:44377/swagger/index.html  
+2022-06-05 21:49:04.852 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request finished in 76.15ms 200 text/html;charset=utf-8
+2022-06-05 21:49:05.258 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request starting HTTP/2.0 GET https://localhost:44377/swagger/v1/swagger.json  
+2022-06-05 21:49:05.377 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request finished in 119.2726ms 200 application/json;charset=utf-8
+2022-06-05 22:00:13.451 +02:00 [Information] [Microsoft.Hosting.Lifetime] | Application started. Press Ctrl+C to shut down.
+2022-06-05 22:00:13.468 +02:00 [Information] [Microsoft.Hosting.Lifetime] | Hosting environment: "Development"
+2022-06-05 22:00:13.469 +02:00 [Information] [Microsoft.Hosting.Lifetime] | Content root path: "D:\Kredek_repos\homework6\homework5"
+2022-06-05 22:00:13.470 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request starting HTTP/2.0 GET https://localhost:44377/swagger/index.html  
+2022-06-05 22:00:13.539 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request finished in 75.7782ms 200 text/html;charset=utf-8
+2022-06-05 22:00:13.922 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request starting HTTP/2.0 GET https://localhost:44377/swagger/v1/swagger.json  
+2022-06-05 22:00:14.007 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request finished in 84.6995ms 200 application/json;charset=utf-8
+2022-06-05 22:01:17.402 +02:00 [Information] [Microsoft.Hosting.Lifetime] | Application started. Press Ctrl+C to shut down.
+2022-06-05 22:01:17.415 +02:00 [Information] [Microsoft.Hosting.Lifetime] | Hosting environment: "Development"
+2022-06-05 22:01:17.417 +02:00 [Information] [Microsoft.Hosting.Lifetime] | Content root path: "D:\Kredek_repos\homework6\homework5"
+2022-06-05 22:01:17.421 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request starting HTTP/2.0 GET https://localhost:44377/swagger/index.html  
+2022-06-05 22:01:17.477 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request finished in 60.5677ms 200 text/html;charset=utf-8
+2022-06-05 22:01:17.884 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request starting HTTP/2.0 GET https://localhost:44377/swagger/v1/swagger.json  
+2022-06-05 22:01:17.978 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request finished in 93.9123ms 200 application/json;charset=utf-8
+2022-06-05 22:02:04.529 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request starting HTTP/1.1 GET https://localhost:44377/swagger/api/car application/json 89
+2022-06-05 22:02:04.549 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request finished in 23.8386ms 404 
+2022-06-05 22:02:25.578 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request starting HTTP/1.1 GET https://localhost:44377/api/car application/json 89
+2022-06-05 22:02:25.598 +02:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] | Executing endpoint '"homework5.Controllers.CarController.GetCars (homework5)"'
+2022-06-05 22:02:25.626 +02:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] | Route matched with "{action = \"GetCars\", controller = \"Car\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetCars(Int32)" on controller "homework5.Controllers.CarController" ("homework5").
+2022-06-05 22:02:44.590 +02:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] | Executed action "homework5.Controllers.CarController.GetCars (homework5)" in 18960.0133ms
+2022-06-05 22:02:44.592 +02:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] | Executed endpoint '"homework5.Controllers.CarController.GetCars (homework5)"'
+2022-06-05 22:02:44.620 +02:00 [Error] [homework5.Middlewares.ErrorHandlingMiddleware] | My bad exception
+System.Exception: My bad exception
+   at homework5.Services.CarService.GetAll(Int32 minCost) in D:\Kredek_repos\homework6\homework5\Services\CarService.cs:line 58
+   at homework5.Controllers.CarController.GetCars(Int32 minPrice) in D:\Kredek_repos\homework6\homework5\Controllers\CarController.cs:line 28
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at homework5.Middlewares.ErrorHandlingMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in D:\Kredek_repos\homework6\homework5\Middlewares\ErrorHandlingMiddleware.cs:line 23
+2022-06-05 22:02:44.680 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request finished in 19103.1723ms 500 
+2022-06-18 19:41:27.755 +02:00 [Information] [Microsoft.Hosting.Lifetime] | Application started. Press Ctrl+C to shut down.
+2022-06-18 19:41:27.770 +02:00 [Information] [Microsoft.Hosting.Lifetime] | Hosting environment: "Development"
+2022-06-18 19:41:27.771 +02:00 [Information] [Microsoft.Hosting.Lifetime] | Content root path: "D:\Kredek_repos\homework6\homework5"
+2022-06-18 19:41:27.774 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request starting HTTP/2.0 GET https://localhost:44377/swagger/index.html  
+2022-06-18 19:41:27.822 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request finished in 51.9131ms 200 text/html;charset=utf-8
+2022-06-18 19:41:28.725 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request starting HTTP/2.0 GET https://localhost:44377/swagger/v1/swagger.json  
+2022-06-18 19:41:28.805 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request finished in 78.6388ms 200 application/json;charset=utf-8
+2022-06-18 19:41:43.366 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request starting HTTP/2.0 GET https://localhost:44377/api/Car  
+2022-06-18 19:41:43.409 +02:00 [Information] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] | CORS policy execution successful.
+2022-06-18 19:41:43.414 +02:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] | Executing endpoint '"homework5.Controllers.CarController.GetCars (homework5)"'
+2022-06-18 19:41:43.447 +02:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] | Route matched with "{action = \"GetCars\", controller = \"Car\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetCars(Int32)" on controller "homework5.Controllers.CarController" ("homework5").
+2022-06-18 19:41:43.604 +02:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] | Executing ObjectResult, writing value of type '"homework5.Dtos.Car.GetAllCarsDto"'.
+2022-06-18 19:41:43.615 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request starting HTTP/2.0 GET https://localhost:44377/api/Car  
+2022-06-18 19:41:43.616 +02:00 [Information] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] | CORS policy execution successful.
+2022-06-18 19:41:43.617 +02:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] | Executing endpoint '"homework5.Controllers.CarController.GetCars (homework5)"'
+2022-06-18 19:41:43.617 +02:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] | Route matched with "{action = \"GetCars\", controller = \"Car\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetCars(Int32)" on controller "homework5.Controllers.CarController" ("homework5").
+2022-06-18 19:41:43.618 +02:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] | Executing ObjectResult, writing value of type '"homework5.Dtos.Car.GetAllCarsDto"'.
+2022-06-18 19:41:43.620 +02:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] | Executed action "homework5.Controllers.CarController.GetCars (homework5)" in 166.0614ms
+2022-06-18 19:41:43.620 +02:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] | Executed action "homework5.Controllers.CarController.GetCars (homework5)" in 1.7245ms
+2022-06-18 19:41:43.621 +02:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] | Executed endpoint '"homework5.Controllers.CarController.GetCars (homework5)"'
+2022-06-18 19:41:43.621 +02:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] | Executed endpoint '"homework5.Controllers.CarController.GetCars (homework5)"'
+2022-06-18 19:41:43.621 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request finished in 254.9447ms 200 application/json; charset=utf-8
+2022-06-18 19:41:43.621 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request finished in 6.037ms 200 application/json; charset=utf-8
+2022-06-18 19:42:33.304 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request starting HTTP/2.0 OPTIONS https://localhost:44377/api/Car  
+2022-06-18 19:42:33.306 +02:00 [Information] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] | CORS policy execution successful.
+2022-06-18 19:42:33.308 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request finished in 6.2607ms 204 
+2022-06-18 19:42:33.314 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request starting HTTP/2.0 POST https://localhost:44377/api/Car application/json 38
+2022-06-18 19:42:33.314 +02:00 [Information] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] | CORS policy execution successful.
+2022-06-18 19:42:33.314 +02:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] | Executing endpoint '"homework5.Controllers.CarController.CreateCar (homework5)"'
+2022-06-18 19:42:33.325 +02:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] | Route matched with "{action = \"CreateCar\", controller = \"Car\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult CreateCar(homework5.Dtos.Car.CreateCarDto)" on controller "homework5.Controllers.CarController" ("homework5").
+2022-06-18 19:42:33.346 +02:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] | Executing ObjectResult, writing value of type '"Microsoft.AspNetCore.Mvc.ValidationProblemDetails"'.
+2022-06-18 19:42:33.348 +02:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] | Executed action "homework5.Controllers.CarController.CreateCar (homework5)" in 22.739ms
+2022-06-18 19:42:33.348 +02:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] | Executed endpoint '"homework5.Controllers.CarController.CreateCar (homework5)"'
+2022-06-18 19:42:33.348 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request finished in 35.171ms 400 application/problem+json; charset=utf-8
+2022-06-18 19:42:33.375 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request starting HTTP/2.0 GET https://localhost:44377/api/Car  
+2022-06-18 19:42:33.376 +02:00 [Information] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] | CORS policy execution successful.
+2022-06-18 19:42:33.376 +02:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] | Executing endpoint '"homework5.Controllers.CarController.GetCars (homework5)"'
+2022-06-18 19:42:33.376 +02:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] | Route matched with "{action = \"GetCars\", controller = \"Car\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetCars(Int32)" on controller "homework5.Controllers.CarController" ("homework5").
+2022-06-18 19:42:33.376 +02:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] | Executing ObjectResult, writing value of type '"homework5.Dtos.Car.GetAllCarsDto"'.
+2022-06-18 19:42:33.377 +02:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] | Executed action "homework5.Controllers.CarController.GetCars (homework5)" in 0.9258ms
+2022-06-18 19:42:33.377 +02:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] | Executed endpoint '"homework5.Controllers.CarController.GetCars (homework5)"'
+2022-06-18 19:42:33.377 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request finished in 1.7299ms 200 application/json; charset=utf-8
+2022-06-18 19:42:33.379 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request starting HTTP/2.0 GET https://localhost:44377/api/Car  
+2022-06-18 19:42:33.379 +02:00 [Information] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] | CORS policy execution successful.
+2022-06-18 19:42:33.380 +02:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] | Executing endpoint '"homework5.Controllers.CarController.GetCars (homework5)"'
+2022-06-18 19:42:33.380 +02:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] | Route matched with "{action = \"GetCars\", controller = \"Car\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetCars(Int32)" on controller "homework5.Controllers.CarController" ("homework5").
+2022-06-18 19:42:33.380 +02:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] | Executing ObjectResult, writing value of type '"homework5.Dtos.Car.GetAllCarsDto"'.
+2022-06-18 19:42:33.381 +02:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] | Executed action "homework5.Controllers.CarController.GetCars (homework5)" in 0.7914ms
+2022-06-18 19:42:33.381 +02:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] | Executed endpoint '"homework5.Controllers.CarController.GetCars (homework5)"'
+2022-06-18 19:42:33.381 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request finished in 2.2898ms 200 application/json; charset=utf-8
+2022-06-18 19:43:42.356 +02:00 [Information] [Microsoft.Hosting.Lifetime] | Application started. Press Ctrl+C to shut down.
+2022-06-18 19:43:42.371 +02:00 [Information] [Microsoft.Hosting.Lifetime] | Hosting environment: "Development"
+2022-06-18 19:43:42.372 +02:00 [Information] [Microsoft.Hosting.Lifetime] | Content root path: "D:\Kredek_repos\homework6\homework5"
+2022-06-18 19:43:42.371 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request starting HTTP/2.0 GET https://localhost:44377/swagger/index.html  
+2022-06-18 19:43:42.423 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request finished in 54.8376ms 200 text/html;charset=utf-8
+2022-06-18 19:43:43.383 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request starting HTTP/2.0 GET https://localhost:44377/swagger/v1/swagger.json  
+2022-06-18 19:43:43.457 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request finished in 74.6695ms 200 application/json;charset=utf-8
+2022-06-18 19:43:54.245 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request starting HTTP/2.0 GET https://localhost:44377/api/Car  
+2022-06-18 19:43:54.283 +02:00 [Information] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] | CORS policy execution successful.
+2022-06-18 19:43:54.287 +02:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] | Executing endpoint '"homework5.Controllers.CarController.GetCars (homework5)"'
+2022-06-18 19:43:54.321 +02:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] | Route matched with "{action = \"GetCars\", controller = \"Car\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetCars(Int32)" on controller "homework5.Controllers.CarController" ("homework5").
+2022-06-18 19:43:54.447 +02:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] | Executing ObjectResult, writing value of type '"homework5.Dtos.Car.GetAllCarsDto"'.
+2022-06-18 19:43:54.456 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request starting HTTP/2.0 GET https://localhost:44377/api/Car  
+2022-06-18 19:43:54.457 +02:00 [Information] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] | CORS policy execution successful.
+2022-06-18 19:43:54.457 +02:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] | Executing endpoint '"homework5.Controllers.CarController.GetCars (homework5)"'
+2022-06-18 19:43:54.457 +02:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] | Route matched with "{action = \"GetCars\", controller = \"Car\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetCars(Int32)" on controller "homework5.Controllers.CarController" ("homework5").
+2022-06-18 19:43:54.462 +02:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] | Executed action "homework5.Controllers.CarController.GetCars (homework5)" in 132.392ms
+2022-06-18 19:43:54.462 +02:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] | Executing ObjectResult, writing value of type '"homework5.Dtos.Car.GetAllCarsDto"'.
+2022-06-18 19:43:54.463 +02:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] | Executed action "homework5.Controllers.CarController.GetCars (homework5)" in 5.5976ms
+2022-06-18 19:43:54.464 +02:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] | Executed endpoint '"homework5.Controllers.CarController.GetCars (homework5)"'
+2022-06-18 19:43:54.464 +02:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] | Executed endpoint '"homework5.Controllers.CarController.GetCars (homework5)"'
+2022-06-18 19:43:54.468 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request finished in 11.9209ms 200 application/json; charset=utf-8
+2022-06-18 19:43:54.468 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request finished in 222.483ms 200 application/json; charset=utf-8
+2022-06-18 19:44:04.207 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request starting HTTP/2.0 GET https://localhost:44377/api/Car  
+2022-06-18 19:44:04.209 +02:00 [Information] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] | CORS policy execution successful.
+2022-06-18 19:44:04.210 +02:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] | Executing endpoint '"homework5.Controllers.CarController.GetCars (homework5)"'
+2022-06-18 19:44:04.210 +02:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] | Route matched with "{action = \"GetCars\", controller = \"Car\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetCars(Int32)" on controller "homework5.Controllers.CarController" ("homework5").
+2022-06-18 19:44:04.212 +02:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] | Executing ObjectResult, writing value of type '"homework5.Dtos.Car.GetAllCarsDto"'.
+2022-06-18 19:44:04.216 +02:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] | Executed action "homework5.Controllers.CarController.GetCars (homework5)" in 5.1617ms
+2022-06-18 19:44:04.216 +02:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] | Executed endpoint '"homework5.Controllers.CarController.GetCars (homework5)"'
+2022-06-18 19:44:04.216 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request finished in 9.9672ms 200 application/json; charset=utf-8
+2022-06-18 19:44:04.218 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request starting HTTP/2.0 GET https://localhost:44377/api/Car  
+2022-06-18 19:44:04.219 +02:00 [Information] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] | CORS policy execution successful.
+2022-06-18 19:44:04.219 +02:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] | Executing endpoint '"homework5.Controllers.CarController.GetCars (homework5)"'
+2022-06-18 19:44:04.219 +02:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] | Route matched with "{action = \"GetCars\", controller = \"Car\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetCars(Int32)" on controller "homework5.Controllers.CarController" ("homework5").
+2022-06-18 19:44:04.220 +02:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] | Executing ObjectResult, writing value of type '"homework5.Dtos.Car.GetAllCarsDto"'.
+2022-06-18 19:44:04.220 +02:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] | Executed action "homework5.Controllers.CarController.GetCars (homework5)" in 0.6421ms
+2022-06-18 19:44:04.220 +02:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] | Executed endpoint '"homework5.Controllers.CarController.GetCars (homework5)"'
+2022-06-18 19:44:04.220 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request finished in 2.4314ms 200 application/json; charset=utf-8
+2022-06-18 19:45:25.819 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request starting HTTP/2.0 GET https://localhost:44377/api/Car  
+2022-06-18 19:45:25.820 +02:00 [Information] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] | CORS policy execution successful.
+2022-06-18 19:45:25.820 +02:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] | Executing endpoint '"homework5.Controllers.CarController.GetCars (homework5)"'
+2022-06-18 19:45:25.821 +02:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] | Route matched with "{action = \"GetCars\", controller = \"Car\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetCars(Int32)" on controller "homework5.Controllers.CarController" ("homework5").
+2022-06-18 19:45:25.822 +02:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] | Executing ObjectResult, writing value of type '"homework5.Dtos.Car.GetAllCarsDto"'.
+2022-06-18 19:45:25.825 +02:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] | Executed action "homework5.Controllers.CarController.GetCars (homework5)" in 3.122ms
+2022-06-18 19:45:25.825 +02:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] | Executed endpoint '"homework5.Controllers.CarController.GetCars (homework5)"'
+2022-06-18 19:45:25.825 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request finished in 10.1803ms 200 application/json; charset=utf-8
+2022-06-18 19:45:25.833 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request starting HTTP/2.0 GET https://localhost:44377/api/Car  
+2022-06-18 19:45:25.834 +02:00 [Information] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] | CORS policy execution successful.
+2022-06-18 19:45:25.834 +02:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] | Executing endpoint '"homework5.Controllers.CarController.GetCars (homework5)"'
+2022-06-18 19:45:25.835 +02:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] | Route matched with "{action = \"GetCars\", controller = \"Car\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetCars(Int32)" on controller "homework5.Controllers.CarController" ("homework5").
+2022-06-18 19:45:25.836 +02:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] | Executing ObjectResult, writing value of type '"homework5.Dtos.Car.GetAllCarsDto"'.
+2022-06-18 19:45:25.837 +02:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] | Executed action "homework5.Controllers.CarController.GetCars (homework5)" in 1.9232ms
+2022-06-18 19:45:25.837 +02:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] | Executed endpoint '"homework5.Controllers.CarController.GetCars (homework5)"'
+2022-06-18 19:45:25.837 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request finished in 5.2996ms 200 application/json; charset=utf-8
+2022-06-18 19:45:45.705 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request starting HTTP/2.0 GET https://localhost:44377/api/Car  
+2022-06-18 19:45:45.706 +02:00 [Information] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] | CORS policy execution successful.
+2022-06-18 19:45:45.706 +02:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] | Executing endpoint '"homework5.Controllers.CarController.GetCars (homework5)"'
+2022-06-18 19:45:45.706 +02:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] | Route matched with "{action = \"GetCars\", controller = \"Car\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetCars(Int32)" on controller "homework5.Controllers.CarController" ("homework5").
+2022-06-18 19:45:45.707 +02:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] | Executing ObjectResult, writing value of type '"homework5.Dtos.Car.GetAllCarsDto"'.
+2022-06-18 19:45:45.709 +02:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] | Executed action "homework5.Controllers.CarController.GetCars (homework5)" in 2.3609ms
+2022-06-18 19:45:45.709 +02:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] | Executed endpoint '"homework5.Controllers.CarController.GetCars (homework5)"'
+2022-06-18 19:45:45.709 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request finished in 4.627ms 200 application/json; charset=utf-8
+2022-06-18 19:45:45.713 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request starting HTTP/2.0 GET https://localhost:44377/api/Car  
+2022-06-18 19:45:45.713 +02:00 [Information] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] | CORS policy execution successful.
+2022-06-18 19:45:45.713 +02:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] | Executing endpoint '"homework5.Controllers.CarController.GetCars (homework5)"'
+2022-06-18 19:45:45.714 +02:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] | Route matched with "{action = \"GetCars\", controller = \"Car\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetCars(Int32)" on controller "homework5.Controllers.CarController" ("homework5").
+2022-06-18 19:45:45.714 +02:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] | Executing ObjectResult, writing value of type '"homework5.Dtos.Car.GetAllCarsDto"'.
+2022-06-18 19:45:45.717 +02:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] | Executed action "homework5.Controllers.CarController.GetCars (homework5)" in 3.349ms
+2022-06-18 19:45:45.717 +02:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] | Executed endpoint '"homework5.Controllers.CarController.GetCars (homework5)"'
+2022-06-18 19:45:45.717 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request finished in 4.846ms 200 application/json; charset=utf-8
+2022-06-18 19:46:36.013 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request starting HTTP/2.0 GET https://localhost:44377/api/Car  
+2022-06-18 19:46:36.014 +02:00 [Information] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] | CORS policy execution successful.
+2022-06-18 19:46:36.014 +02:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] | Executing endpoint '"homework5.Controllers.CarController.GetCars (homework5)"'
+2022-06-18 19:46:36.015 +02:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] | Route matched with "{action = \"GetCars\", controller = \"Car\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetCars(Int32)" on controller "homework5.Controllers.CarController" ("homework5").
+2022-06-18 19:46:36.015 +02:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] | Executing ObjectResult, writing value of type '"homework5.Dtos.Car.GetAllCarsDto"'.
+2022-06-18 19:46:36.017 +02:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] | Executed action "homework5.Controllers.CarController.GetCars (homework5)" in 2.3796ms
+2022-06-18 19:46:36.022 +02:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] | Executed endpoint '"homework5.Controllers.CarController.GetCars (homework5)"'
+2022-06-18 19:46:36.023 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request finished in 14.0938ms 200 application/json; charset=utf-8
+2022-06-18 19:46:36.023 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request starting HTTP/2.0 GET https://localhost:44377/api/Car  
+2022-06-18 19:46:36.026 +02:00 [Information] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] | CORS policy execution successful.
+2022-06-18 19:46:36.027 +02:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] | Executing endpoint '"homework5.Controllers.CarController.GetCars (homework5)"'
+2022-06-18 19:46:36.027 +02:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] | Route matched with "{action = \"GetCars\", controller = \"Car\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetCars(Int32)" on controller "homework5.Controllers.CarController" ("homework5").
+2022-06-18 19:46:36.028 +02:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] | Executing ObjectResult, writing value of type '"homework5.Dtos.Car.GetAllCarsDto"'.
+2022-06-18 19:46:36.028 +02:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] | Executed action "homework5.Controllers.CarController.GetCars (homework5)" in 1.2482ms
+2022-06-18 19:46:36.028 +02:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] | Executed endpoint '"homework5.Controllers.CarController.GetCars (homework5)"'
+2022-06-18 19:46:36.029 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request finished in 6.5597ms 200 application/json; charset=utf-8
+2022-06-18 19:47:07.673 +02:00 [Information] [Microsoft.Hosting.Lifetime] | Application started. Press Ctrl+C to shut down.
+2022-06-18 19:47:07.696 +02:00 [Information] [Microsoft.Hosting.Lifetime] | Hosting environment: "Development"
+2022-06-18 19:47:07.697 +02:00 [Information] [Microsoft.Hosting.Lifetime] | Content root path: "D:\Kredek_repos\homework6\homework5"
+2022-06-18 19:47:07.707 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request starting HTTP/2.0 GET https://localhost:44377/swagger/index.html  
+2022-06-18 19:47:07.774 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request finished in 79.1513ms 200 text/html;charset=utf-8
+2022-06-18 19:47:08.748 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request starting HTTP/2.0 GET https://localhost:44377/swagger/v1/swagger.json  
+2022-06-18 19:47:08.823 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request finished in 75.0093ms 200 application/json;charset=utf-8
+2022-06-18 19:48:33.504 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request starting HTTP/2.0 GET https://localhost:44377/api/Car  
+2022-06-18 19:48:33.546 +02:00 [Information] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] | CORS policy execution successful.
+2022-06-18 19:48:33.553 +02:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] | Executing endpoint '"homework5.Controllers.CarController.GetCars (homework5)"'
+2022-06-18 19:48:33.590 +02:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] | Route matched with "{action = \"GetCars\", controller = \"Car\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetCars(Int32)" on controller "homework5.Controllers.CarController" ("homework5").
+2022-06-18 19:48:33.725 +02:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] | Executing ObjectResult, writing value of type '"homework5.Dtos.Car.GetAllCarsDto"'.
+2022-06-18 19:48:33.737 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request starting HTTP/2.0 GET https://localhost:44377/api/Car  
+2022-06-18 19:48:33.738 +02:00 [Information] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] | CORS policy execution successful.
+2022-06-18 19:48:33.738 +02:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] | Executing endpoint '"homework5.Controllers.CarController.GetCars (homework5)"'
+2022-06-18 19:48:33.739 +02:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] | Route matched with "{action = \"GetCars\", controller = \"Car\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetCars(Int32)" on controller "homework5.Controllers.CarController" ("homework5").
+2022-06-18 19:48:33.741 +02:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] | Executed action "homework5.Controllers.CarController.GetCars (homework5)" in 144.0138ms
+2022-06-18 19:48:33.749 +02:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] | Executing ObjectResult, writing value of type '"homework5.Dtos.Car.GetAllCarsDto"'.
+2022-06-18 19:48:33.749 +02:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] | Executed endpoint '"homework5.Controllers.CarController.GetCars (homework5)"'
+2022-06-18 19:48:33.749 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request finished in 245.8649ms 200 application/json; charset=utf-8
+2022-06-18 19:48:33.753 +02:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] | Executed action "homework5.Controllers.CarController.GetCars (homework5)" in 13.7041ms
+2022-06-18 19:48:33.754 +02:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] | Executed endpoint '"homework5.Controllers.CarController.GetCars (homework5)"'
+2022-06-18 19:48:33.754 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request finished in 17.4256ms 200 application/json; charset=utf-8
+2022-06-18 19:49:24.072 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request starting HTTP/2.0 OPTIONS https://localhost:44377/api/Car  
+2022-06-18 19:49:24.074 +02:00 [Information] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] | CORS policy execution successful.
+2022-06-18 19:49:24.075 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request finished in 3.1055ms 204 
+2022-06-18 19:49:24.078 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request starting HTTP/2.0 POST https://localhost:44377/api/Car application/json 14
+2022-06-18 19:49:24.079 +02:00 [Information] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] | CORS policy execution successful.
+2022-06-18 19:49:24.079 +02:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] | Executing endpoint '"homework5.Controllers.CarController.CreateCar (homework5)"'
+2022-06-18 19:49:24.091 +02:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] | Route matched with "{action = \"CreateCar\", controller = \"Car\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult CreateCar(homework5.Dtos.Car.CreateCarDto)" on controller "homework5.Controllers.CarController" ("homework5").
+2022-06-18 19:49:24.101 +02:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] | Executing ObjectResult, writing value of type '"Microsoft.AspNetCore.Mvc.ValidationProblemDetails"'.
+2022-06-18 19:49:24.102 +02:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] | Executed action "homework5.Controllers.CarController.CreateCar (homework5)" in 10.9715ms
+2022-06-18 19:49:24.103 +02:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] | Executed endpoint '"homework5.Controllers.CarController.CreateCar (homework5)"'
+2022-06-18 19:49:24.103 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request finished in 25.9314ms 400 application/problem+json; charset=utf-8
+2022-06-18 19:49:24.118 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request starting HTTP/2.0 GET https://localhost:44377/api/Car  
+2022-06-18 19:49:24.119 +02:00 [Information] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] | CORS policy execution successful.
+2022-06-18 19:49:24.119 +02:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] | Executing endpoint '"homework5.Controllers.CarController.GetCars (homework5)"'
+2022-06-18 19:49:24.119 +02:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] | Route matched with "{action = \"GetCars\", controller = \"Car\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetCars(Int32)" on controller "homework5.Controllers.CarController" ("homework5").
+2022-06-18 19:49:24.120 +02:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] | Executing ObjectResult, writing value of type '"homework5.Dtos.Car.GetAllCarsDto"'.
+2022-06-18 19:49:24.120 +02:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] | Executed action "homework5.Controllers.CarController.GetCars (homework5)" in 0.7358ms
+2022-06-18 19:49:24.120 +02:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] | Executed endpoint '"homework5.Controllers.CarController.GetCars (homework5)"'
+2022-06-18 19:49:24.120 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request finished in 1.7434ms 200 application/json; charset=utf-8
+2022-06-18 19:49:24.122 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request starting HTTP/2.0 GET https://localhost:44377/api/Car  
+2022-06-18 19:49:24.122 +02:00 [Information] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] | CORS policy execution successful.
+2022-06-18 19:49:24.122 +02:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] | Executing endpoint '"homework5.Controllers.CarController.GetCars (homework5)"'
+2022-06-18 19:49:24.122 +02:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] | Route matched with "{action = \"GetCars\", controller = \"Car\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetCars(Int32)" on controller "homework5.Controllers.CarController" ("homework5").
+2022-06-18 19:49:24.122 +02:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] | Executing ObjectResult, writing value of type '"homework5.Dtos.Car.GetAllCarsDto"'.
+2022-06-18 19:49:24.123 +02:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] | Executed action "homework5.Controllers.CarController.GetCars (homework5)" in 0.4788ms
+2022-06-18 19:49:24.123 +02:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] | Executed endpoint '"homework5.Controllers.CarController.GetCars (homework5)"'
+2022-06-18 19:49:24.123 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request finished in 1.3407ms 200 application/json; charset=utf-8
+2022-06-18 19:49:38.282 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request starting HTTP/2.0 GET https://localhost:44377/api/Car?minPrice=0  
+2022-06-18 19:49:38.286 +02:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] | Executing endpoint '"homework5.Controllers.CarController.GetCars (homework5)"'
+2022-06-18 19:49:38.287 +02:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] | Route matched with "{action = \"GetCars\", controller = \"Car\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetCars(Int32)" on controller "homework5.Controllers.CarController" ("homework5").
+2022-06-18 19:49:38.307 +02:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] | Executing ObjectResult, writing value of type '"homework5.Dtos.Car.GetAllCarsDto"'.
+2022-06-18 19:49:38.308 +02:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] | Executed action "homework5.Controllers.CarController.GetCars (homework5)" in 20.5499ms
+2022-06-18 19:49:38.308 +02:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] | Executed endpoint '"homework5.Controllers.CarController.GetCars (homework5)"'
+2022-06-18 19:49:38.308 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request finished in 25.846ms 200 application/json; charset=utf-8
+2022-06-19 12:00:30.261 +02:00 [Information] [Microsoft.Hosting.Lifetime] | Application started. Press Ctrl+C to shut down.
+2022-06-19 12:00:30.278 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request starting HTTP/2.0 GET https://localhost:44377/swagger  
+2022-06-19 12:00:30.303 +02:00 [Information] [Microsoft.Hosting.Lifetime] | Hosting environment: "Development"
+2022-06-19 12:00:30.303 +02:00 [Information] [Microsoft.Hosting.Lifetime] | Content root path: "D:\Kredek_repos\homework6\homework5"
+2022-06-19 12:00:30.332 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request finished in 57.4988ms 301 
+2022-06-19 12:00:30.337 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request starting HTTP/2.0 GET https://localhost:44377/swagger/index.html  
+2022-06-19 12:00:30.377 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request finished in 39.4964ms 200 text/html;charset=utf-8
+2022-06-19 12:00:30.391 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request starting HTTP/2.0 GET https://localhost:44377/swagger/swagger-ui-bundle.js  
+2022-06-19 12:00:30.391 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request starting HTTP/2.0 GET https://localhost:44377/swagger/swagger-ui.css  
+2022-06-19 12:00:30.391 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request starting HTTP/2.0 GET https://localhost:44377/swagger/swagger-ui-standalone-preset.js  
+2022-06-19 12:00:30.435 +02:00 [Information] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] | Sending file. Request path: '"/swagger-ui-standalone-preset.js"'. Physical path: '"N/A"'
+2022-06-19 12:00:30.436 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request finished in 45.2459ms 200 application/javascript
+2022-06-19 12:00:30.509 +02:00 [Information] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] | Sending file. Request path: '"/swagger-ui.css"'. Physical path: '"N/A"'
+2022-06-19 12:00:30.509 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request finished in 118.3152ms 200 text/css
+2022-06-19 12:00:30.582 +02:00 [Information] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] | Sending file. Request path: '"/swagger-ui-bundle.js"'. Physical path: '"N/A"'
+2022-06-19 12:00:30.582 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request finished in 191.4054ms 200 application/javascript
+2022-06-19 12:00:31.308 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request starting HTTP/2.0 GET https://localhost:44377/swagger/v1/swagger.json  
+2022-06-19 12:00:31.393 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request finished in 85.4896ms 200 application/json;charset=utf-8
+2022-06-19 12:00:42.507 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request starting HTTP/2.0 GET https://localhost:44377/api/Car?minPrice=0  
+2022-06-19 12:00:42.533 +02:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] | Executing endpoint '"homework5.Controllers.CarController.GetCars (homework5)"'
+2022-06-19 12:00:42.559 +02:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] | Route matched with "{action = \"GetCars\", controller = \"Car\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetCars(Int32)" on controller "homework5.Controllers.CarController" ("homework5").
+2022-06-19 12:00:42.694 +02:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] | Executing ObjectResult, writing value of type '"homework5.Dtos.Car.GetAllCarsDto"'.
+2022-06-19 12:00:42.706 +02:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] | Executed action "homework5.Controllers.CarController.GetCars (homework5)" in 141.8624ms
+2022-06-19 12:00:42.707 +02:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] | Executed endpoint '"homework5.Controllers.CarController.GetCars (homework5)"'
+2022-06-19 12:00:42.707 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request finished in 200.0755ms 200 application/json; charset=utf-8
+2022-06-19 12:02:51.817 +02:00 [Information] [Microsoft.Hosting.Lifetime] | Application started. Press Ctrl+C to shut down.
+2022-06-19 12:02:51.841 +02:00 [Information] [Microsoft.Hosting.Lifetime] | Hosting environment: "Development"
+2022-06-19 12:02:51.843 +02:00 [Information] [Microsoft.Hosting.Lifetime] | Content root path: "D:\Kredek_repos\homework6\homework5"
+2022-06-19 12:02:51.845 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request starting HTTP/2.0 GET https://localhost:44377/swagger/index.html  
+2022-06-19 12:02:51.921 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request finished in 81.5551ms 200 text/html;charset=utf-8
+2022-06-19 12:02:52.978 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request starting HTTP/2.0 GET https://localhost:44377/swagger/v1/swagger.json  
+2022-06-19 12:02:52.992 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request starting HTTP/2.0 GET https://localhost:44377/swagger/favicon-32x32.png  
+2022-06-19 12:02:53.010 +02:00 [Information] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] | Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+2022-06-19 12:02:53.010 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request finished in 18.13ms 200 image/png
+2022-06-19 12:02:53.073 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request finished in 94.8734ms 200 application/json;charset=utf-8
+2022-06-19 12:03:00.558 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request starting HTTP/2.0 GET https://localhost:44377/api/Car  
+2022-06-19 12:03:00.593 +02:00 [Information] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] | CORS policy execution successful.
+2022-06-19 12:03:00.600 +02:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] | Executing endpoint '"homework5.Controllers.CarController.GetCars (homework5)"'
+2022-06-19 12:03:00.633 +02:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] | Route matched with "{action = \"GetCars\", controller = \"Car\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetCars(Int32)" on controller "homework5.Controllers.CarController" ("homework5").
+2022-06-19 12:03:00.756 +02:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] | Executing ObjectResult, writing value of type '"homework5.Dtos.Car.GetAllCarsDto"'.
+2022-06-19 12:03:00.763 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request starting HTTP/2.0 GET https://localhost:44377/api/Car  
+2022-06-19 12:03:00.764 +02:00 [Information] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] | CORS policy execution successful.
+2022-06-19 12:03:00.765 +02:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] | Executing endpoint '"homework5.Controllers.CarController.GetCars (homework5)"'
+2022-06-19 12:03:00.765 +02:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] | Route matched with "{action = \"GetCars\", controller = \"Car\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetCars(Int32)" on controller "homework5.Controllers.CarController" ("homework5").
+2022-06-19 12:03:00.769 +02:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] | Executed action "homework5.Controllers.CarController.GetCars (homework5)" in 127.1318ms
+2022-06-19 12:03:00.770 +02:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] | Executing ObjectResult, writing value of type '"homework5.Dtos.Car.GetAllCarsDto"'.
+2022-06-19 12:03:00.770 +02:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] | Executed action "homework5.Controllers.CarController.GetCars (homework5)" in 5.0792ms
+2022-06-19 12:03:00.771 +02:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] | Executed endpoint '"homework5.Controllers.CarController.GetCars (homework5)"'
+2022-06-19 12:03:00.774 +02:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] | Executed endpoint '"homework5.Controllers.CarController.GetCars (homework5)"'
+2022-06-19 12:03:00.774 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request finished in 11.348ms 200 application/json; charset=utf-8
+2022-06-19 12:03:00.774 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request finished in 216.1068ms 200 application/json; charset=utf-8
+2022-06-19 12:04:22.757 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request starting HTTP/2.0 OPTIONS https://localhost:44377/api/Car  
+2022-06-19 12:04:22.758 +02:00 [Information] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] | CORS policy execution successful.
+2022-06-19 12:04:22.760 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request finished in 4.7701ms 204 
+2022-06-19 12:04:22.765 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request starting HTTP/2.0 POST https://localhost:44377/api/Car application/json 14
+2022-06-19 12:04:22.765 +02:00 [Information] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] | CORS policy execution successful.
+2022-06-19 12:04:22.765 +02:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] | Executing endpoint '"homework5.Controllers.CarController.CreateCar (homework5)"'
+2022-06-19 12:04:22.768 +02:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] | Route matched with "{action = \"CreateCar\", controller = \"Car\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult CreateCar(homework5.Dtos.Car.CreateCarDto)" on controller "homework5.Controllers.CarController" ("homework5").
+2022-06-19 12:04:22.787 +02:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] | Executing ObjectResult, writing value of type '"Microsoft.AspNetCore.Mvc.ValidationProblemDetails"'.
+2022-06-19 12:04:22.788 +02:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] | Executed action "homework5.Controllers.CarController.CreateCar (homework5)" in 19.9847ms
+2022-06-19 12:04:22.789 +02:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] | Executed endpoint '"homework5.Controllers.CarController.CreateCar (homework5)"'
+2022-06-19 12:04:22.789 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request finished in 26.9692ms 400 application/problem+json; charset=utf-8
+2022-06-19 12:04:22.804 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request starting HTTP/2.0 GET https://localhost:44377/api/Car  
+2022-06-19 12:04:22.804 +02:00 [Information] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] | CORS policy execution successful.
+2022-06-19 12:04:22.804 +02:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] | Executing endpoint '"homework5.Controllers.CarController.GetCars (homework5)"'
+2022-06-19 12:04:22.804 +02:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] | Route matched with "{action = \"GetCars\", controller = \"Car\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetCars(Int32)" on controller "homework5.Controllers.CarController" ("homework5").
+2022-06-19 12:04:22.805 +02:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] | Executing ObjectResult, writing value of type '"homework5.Dtos.Car.GetAllCarsDto"'.
+2022-06-19 12:04:22.805 +02:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] | Executed action "homework5.Controllers.CarController.GetCars (homework5)" in 0.5871ms
+2022-06-19 12:04:22.805 +02:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] | Executed endpoint '"homework5.Controllers.CarController.GetCars (homework5)"'
+2022-06-19 12:04:22.806 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request finished in 1.9867ms 200 application/json; charset=utf-8
+2022-06-19 12:04:22.809 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request starting HTTP/2.0 GET https://localhost:44377/api/Car  
+2022-06-19 12:04:22.812 +02:00 [Information] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] | CORS policy execution successful.
+2022-06-19 12:04:22.812 +02:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] | Executing endpoint '"homework5.Controllers.CarController.GetCars (homework5)"'
+2022-06-19 12:04:22.812 +02:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] | Route matched with "{action = \"GetCars\", controller = \"Car\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetCars(Int32)" on controller "homework5.Controllers.CarController" ("homework5").
+2022-06-19 12:04:22.812 +02:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] | Executing ObjectResult, writing value of type '"homework5.Dtos.Car.GetAllCarsDto"'.
+2022-06-19 12:04:22.813 +02:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] | Executed action "homework5.Controllers.CarController.GetCars (homework5)" in 0.531ms
+2022-06-19 12:04:22.813 +02:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] | Executed endpoint '"homework5.Controllers.CarController.GetCars (homework5)"'
+2022-06-19 12:04:22.813 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request finished in 4.1403ms 200 application/json; charset=utf-8
+2022-06-19 12:04:34.273 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request starting HTTP/2.0 GET https://localhost:44377/api/Car?minPrice=0  
+2022-06-19 12:04:34.274 +02:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] | Executing endpoint '"homework5.Controllers.CarController.GetCars (homework5)"'
+2022-06-19 12:04:34.275 +02:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] | Route matched with "{action = \"GetCars\", controller = \"Car\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetCars(Int32)" on controller "homework5.Controllers.CarController" ("homework5").
+2022-06-19 12:04:34.288 +02:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] | Executing ObjectResult, writing value of type '"homework5.Dtos.Car.GetAllCarsDto"'.
+2022-06-19 12:04:34.289 +02:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] | Executed action "homework5.Controllers.CarController.GetCars (homework5)" in 13.5967ms
+2022-06-19 12:04:34.289 +02:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] | Executed endpoint '"homework5.Controllers.CarController.GetCars (homework5)"'
+2022-06-19 12:04:34.289 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request finished in 15.6102ms 200 application/json; charset=utf-8
+2022-06-19 12:04:44.317 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request starting HTTP/2.0 POST https://localhost:44377/api/Car application/json 58
+2022-06-19 12:04:44.317 +02:00 [Information] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] | CORS policy execution successful.
+2022-06-19 12:04:44.318 +02:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] | Executing endpoint '"homework5.Controllers.CarController.CreateCar (homework5)"'
+2022-06-19 12:04:44.319 +02:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] | Route matched with "{action = \"CreateCar\", controller = \"Car\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult CreateCar(homework5.Dtos.Car.CreateCarDto)" on controller "homework5.Controllers.CarController" ("homework5").
+2022-06-19 12:04:44.361 +02:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] | Executing ObjectResult, writing value of type '"Microsoft.AspNetCore.Mvc.ValidationProblemDetails"'.
+2022-06-19 12:04:44.362 +02:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] | Executed action "homework5.Controllers.CarController.CreateCar (homework5)" in 42.7001ms
+2022-06-19 12:04:44.362 +02:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] | Executed endpoint '"homework5.Controllers.CarController.CreateCar (homework5)"'
+2022-06-19 12:04:44.362 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request finished in 45.1647ms 400 application/problem+json; charset=utf-8
+2022-06-19 12:04:54.218 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request starting HTTP/2.0 POST https://localhost:44377/api/Car application/json 48
+2022-06-19 12:04:54.219 +02:00 [Information] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] | CORS policy execution successful.
+2022-06-19 12:04:54.220 +02:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] | Executing endpoint '"homework5.Controllers.CarController.CreateCar (homework5)"'
+2022-06-19 12:04:54.220 +02:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] | Route matched with "{action = \"CreateCar\", controller = \"Car\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult CreateCar(homework5.Dtos.Car.CreateCarDto)" on controller "homework5.Controllers.CarController" ("homework5").
+2022-06-19 12:04:54.225 +02:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] | Executing ObjectResult, writing value of type '"Microsoft.AspNetCore.Mvc.ValidationProblemDetails"'.
+2022-06-19 12:04:54.226 +02:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] | Executed action "homework5.Controllers.CarController.CreateCar (homework5)" in 5.5382ms
+2022-06-19 12:04:54.226 +02:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] | Executed endpoint '"homework5.Controllers.CarController.CreateCar (homework5)"'
+2022-06-19 12:04:54.226 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request finished in 8.1521ms 400 application/problem+json; charset=utf-8
+2022-06-19 12:05:05.238 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request starting HTTP/2.0 POST https://localhost:44377/api/Car application/json 50
+2022-06-19 12:05:05.239 +02:00 [Information] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] | CORS policy execution successful.
+2022-06-19 12:05:05.239 +02:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] | Executing endpoint '"homework5.Controllers.CarController.CreateCar (homework5)"'
+2022-06-19 12:05:05.239 +02:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] | Route matched with "{action = \"CreateCar\", controller = \"Car\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult CreateCar(homework5.Dtos.Car.CreateCarDto)" on controller "homework5.Controllers.CarController" ("homework5").
+2022-06-19 12:05:05.242 +02:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] | Executing ObjectResult, writing value of type '"Microsoft.AspNetCore.Mvc.ValidationProblemDetails"'.
+2022-06-19 12:05:05.243 +02:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] | Executed action "homework5.Controllers.CarController.CreateCar (homework5)" in 3.2718ms
+2022-06-19 12:05:05.243 +02:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] | Executed endpoint '"homework5.Controllers.CarController.CreateCar (homework5)"'
+2022-06-19 12:05:05.243 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request finished in 4.9587ms 400 application/problem+json; charset=utf-8
+2022-06-19 12:05:13.245 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request starting HTTP/2.0 POST https://localhost:44377/api/Car application/json 53
+2022-06-19 12:05:13.246 +02:00 [Information] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] | CORS policy execution successful.
+2022-06-19 12:05:13.246 +02:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] | Executing endpoint '"homework5.Controllers.CarController.CreateCar (homework5)"'
+2022-06-19 12:05:13.246 +02:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] | Route matched with "{action = \"CreateCar\", controller = \"Car\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult CreateCar(homework5.Dtos.Car.CreateCarDto)" on controller "homework5.Controllers.CarController" ("homework5").
+2022-06-19 12:05:13.253 +02:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] | Executing ObjectResult, writing value of type '"System.Int32"'.
+2022-06-19 12:05:13.255 +02:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] | Executed action "homework5.Controllers.CarController.CreateCar (homework5)" in 7.9984ms
+2022-06-19 12:05:13.255 +02:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] | Executed endpoint '"homework5.Controllers.CarController.CreateCar (homework5)"'
+2022-06-19 12:05:13.255 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request finished in 9.8172ms 201 application/json; charset=utf-8
+2022-06-19 12:05:22.385 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request starting HTTP/2.0 GET https://localhost:44377/api/Car  
+2022-06-19 12:05:22.386 +02:00 [Information] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] | CORS policy execution successful.
+2022-06-19 12:05:22.386 +02:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] | Executing endpoint '"homework5.Controllers.CarController.GetCars (homework5)"'
+2022-06-19 12:05:22.387 +02:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] | Route matched with "{action = \"GetCars\", controller = \"Car\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetCars(Int32)" on controller "homework5.Controllers.CarController" ("homework5").
+2022-06-19 12:05:22.388 +02:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] | Executing ObjectResult, writing value of type '"homework5.Dtos.Car.GetAllCarsDto"'.
+2022-06-19 12:05:22.389 +02:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] | Executed action "homework5.Controllers.CarController.GetCars (homework5)" in 1.9653ms
+2022-06-19 12:05:22.390 +02:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] | Executed endpoint '"homework5.Controllers.CarController.GetCars (homework5)"'
+2022-06-19 12:05:22.390 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request finished in 5.1064ms 200 application/json; charset=utf-8
+2022-06-19 12:05:22.391 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request starting HTTP/2.0 GET https://localhost:44377/api/Car  
+2022-06-19 12:05:22.392 +02:00 [Information] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] | CORS policy execution successful.
+2022-06-19 12:05:22.392 +02:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] | Executing endpoint '"homework5.Controllers.CarController.GetCars (homework5)"'
+2022-06-19 12:05:22.392 +02:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] | Route matched with "{action = \"GetCars\", controller = \"Car\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetCars(Int32)" on controller "homework5.Controllers.CarController" ("homework5").
+2022-06-19 12:05:22.394 +02:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] | Executing ObjectResult, writing value of type '"homework5.Dtos.Car.GetAllCarsDto"'.
+2022-06-19 12:05:22.395 +02:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] | Executed action "homework5.Controllers.CarController.GetCars (homework5)" in 2.3228ms
+2022-06-19 12:05:22.395 +02:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] | Executed endpoint '"homework5.Controllers.CarController.GetCars (homework5)"'
+2022-06-19 12:05:22.395 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request finished in 4.3018ms 200 application/json; charset=utf-8
+2022-06-19 12:07:19.927 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request starting HTTP/2.0 POST https://localhost:44377/api/Car application/json 53
+2022-06-19 12:07:19.930 +02:00 [Information] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] | CORS policy execution successful.
+2022-06-19 12:07:19.930 +02:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] | Executing endpoint '"homework5.Controllers.CarController.CreateCar (homework5)"'
+2022-06-19 12:07:19.930 +02:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] | Route matched with "{action = \"CreateCar\", controller = \"Car\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult CreateCar(homework5.Dtos.Car.CreateCarDto)" on controller "homework5.Controllers.CarController" ("homework5").
+2022-06-19 12:07:19.932 +02:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] | Executing ObjectResult, writing value of type '"Microsoft.AspNetCore.Mvc.ValidationProblemDetails"'.
+2022-06-19 12:07:19.934 +02:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] | Executed action "homework5.Controllers.CarController.CreateCar (homework5)" in 3.1941ms
+2022-06-19 12:07:19.937 +02:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] | Executed endpoint '"homework5.Controllers.CarController.CreateCar (homework5)"'
+2022-06-19 12:07:19.937 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request finished in 10.7363ms 400 application/problem+json; charset=utf-8
+2022-06-19 12:07:32.092 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request starting HTTP/2.0 POST https://localhost:44377/api/Car application/json 56
+2022-06-19 12:07:32.093 +02:00 [Information] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] | CORS policy execution successful.
+2022-06-19 12:07:32.093 +02:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] | Executing endpoint '"homework5.Controllers.CarController.CreateCar (homework5)"'
+2022-06-19 12:07:32.093 +02:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] | Route matched with "{action = \"CreateCar\", controller = \"Car\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult CreateCar(homework5.Dtos.Car.CreateCarDto)" on controller "homework5.Controllers.CarController" ("homework5").
+2022-06-19 12:07:32.096 +02:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] | Executing ObjectResult, writing value of type '"System.Int32"'.
+2022-06-19 12:07:32.097 +02:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] | Executed action "homework5.Controllers.CarController.CreateCar (homework5)" in 3.2889ms
+2022-06-19 12:07:32.097 +02:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] | Executed endpoint '"homework5.Controllers.CarController.CreateCar (homework5)"'
+2022-06-19 12:07:32.101 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request finished in 5.1299ms 201 application/json; charset=utf-8
+2022-06-19 12:10:09.274 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request starting HTTP/2.0 GET https://localhost:44377/api/Car  
+2022-06-19 12:10:09.275 +02:00 [Information] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] | CORS policy execution successful.
+2022-06-19 12:10:09.275 +02:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] | Executing endpoint '"homework5.Controllers.CarController.GetCars (homework5)"'
+2022-06-19 12:10:09.275 +02:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] | Route matched with "{action = \"GetCars\", controller = \"Car\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetCars(Int32)" on controller "homework5.Controllers.CarController" ("homework5").
+2022-06-19 12:10:09.276 +02:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] | Executing ObjectResult, writing value of type '"homework5.Dtos.Car.GetAllCarsDto"'.
+2022-06-19 12:10:09.277 +02:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] | Executed action "homework5.Controllers.CarController.GetCars (homework5)" in 1.7168ms
+2022-06-19 12:10:09.278 +02:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] | Executed endpoint '"homework5.Controllers.CarController.GetCars (homework5)"'
+2022-06-19 12:10:09.281 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request finished in 6.9489ms 200 application/json; charset=utf-8
+2022-06-19 12:10:09.286 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request starting HTTP/2.0 GET https://localhost:44377/api/Car  
+2022-06-19 12:10:09.286 +02:00 [Information] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] | CORS policy execution successful.
+2022-06-19 12:10:09.286 +02:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] | Executing endpoint '"homework5.Controllers.CarController.GetCars (homework5)"'
+2022-06-19 12:10:09.286 +02:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] | Route matched with "{action = \"GetCars\", controller = \"Car\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetCars(Int32)" on controller "homework5.Controllers.CarController" ("homework5").
+2022-06-19 12:10:09.287 +02:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] | Executing ObjectResult, writing value of type '"homework5.Dtos.Car.GetAllCarsDto"'.
+2022-06-19 12:10:09.289 +02:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] | Executed action "homework5.Controllers.CarController.GetCars (homework5)" in 2.0653ms
+2022-06-19 12:10:09.289 +02:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] | Executed endpoint '"homework5.Controllers.CarController.GetCars (homework5)"'
+2022-06-19 12:10:09.289 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request finished in 3.469ms 200 application/json; charset=utf-8
+2022-06-19 12:10:10.764 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request starting HTTP/2.0 GET https://localhost:44377/api/Car  
+2022-06-19 12:10:10.764 +02:00 [Information] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] | CORS policy execution successful.
+2022-06-19 12:10:10.764 +02:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] | Executing endpoint '"homework5.Controllers.CarController.GetCars (homework5)"'
+2022-06-19 12:10:10.769 +02:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] | Route matched with "{action = \"GetCars\", controller = \"Car\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetCars(Int32)" on controller "homework5.Controllers.CarController" ("homework5").
+2022-06-19 12:10:10.770 +02:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] | Executing ObjectResult, writing value of type '"homework5.Dtos.Car.GetAllCarsDto"'.
+2022-06-19 12:10:10.771 +02:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] | Executed action "homework5.Controllers.CarController.GetCars (homework5)" in 2.4296ms
+2022-06-19 12:10:10.771 +02:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] | Executed endpoint '"homework5.Controllers.CarController.GetCars (homework5)"'
+2022-06-19 12:10:10.772 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request finished in 7.849ms 200 application/json; charset=utf-8
+2022-06-19 12:10:10.773 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request starting HTTP/2.0 GET https://localhost:44377/api/Car  
+2022-06-19 12:10:10.773 +02:00 [Information] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] | CORS policy execution successful.
+2022-06-19 12:10:10.774 +02:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] | Executing endpoint '"homework5.Controllers.CarController.GetCars (homework5)"'
+2022-06-19 12:10:10.774 +02:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] | Route matched with "{action = \"GetCars\", controller = \"Car\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetCars(Int32)" on controller "homework5.Controllers.CarController" ("homework5").
+2022-06-19 12:10:10.774 +02:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] | Executing ObjectResult, writing value of type '"homework5.Dtos.Car.GetAllCarsDto"'.
+2022-06-19 12:10:10.775 +02:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] | Executed action "homework5.Controllers.CarController.GetCars (homework5)" in 0.8349ms
+2022-06-19 12:10:10.775 +02:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] | Executed endpoint '"homework5.Controllers.CarController.GetCars (homework5)"'
+2022-06-19 12:10:10.775 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request finished in 1.9395ms 200 application/json; charset=utf-8
+2022-06-19 12:10:18.760 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request starting HTTP/2.0 OPTIONS https://localhost:44377/api/Car  
+2022-06-19 12:10:18.763 +02:00 [Information] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] | CORS policy execution successful.
+2022-06-19 12:10:18.763 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request finished in 3.9798ms 204 
+2022-06-19 12:10:18.765 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request starting HTTP/2.0 POST https://localhost:44377/api/Car application/json 35
+2022-06-19 12:10:18.802 +02:00 [Information] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] | CORS policy execution successful.
+2022-06-19 12:10:18.803 +02:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] | Executing endpoint '"homework5.Controllers.CarController.CreateCar (homework5)"'
+2022-06-19 12:10:18.803 +02:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] | Route matched with "{action = \"CreateCar\", controller = \"Car\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult CreateCar(homework5.Dtos.Car.CreateCarDto)" on controller "homework5.Controllers.CarController" ("homework5").
+2022-06-19 12:10:18.805 +02:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] | Executing ObjectResult, writing value of type '"Microsoft.AspNetCore.Mvc.ValidationProblemDetails"'.
+2022-06-19 12:10:18.805 +02:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] | Executed action "homework5.Controllers.CarController.CreateCar (homework5)" in 2.4307ms
+2022-06-19 12:10:18.806 +02:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] | Executed endpoint '"homework5.Controllers.CarController.CreateCar (homework5)"'
+2022-06-19 12:10:18.806 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request finished in 40.6342ms 400 application/problem+json; charset=utf-8
+2022-06-19 12:10:18.815 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request starting HTTP/2.0 GET https://localhost:44377/api/Car  
+2022-06-19 12:10:18.815 +02:00 [Information] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] | CORS policy execution successful.
+2022-06-19 12:10:18.815 +02:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] | Executing endpoint '"homework5.Controllers.CarController.GetCars (homework5)"'
+2022-06-19 12:10:18.815 +02:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] | Route matched with "{action = \"GetCars\", controller = \"Car\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetCars(Int32)" on controller "homework5.Controllers.CarController" ("homework5").
+2022-06-19 12:10:18.815 +02:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] | Executing ObjectResult, writing value of type '"homework5.Dtos.Car.GetAllCarsDto"'.
+2022-06-19 12:10:18.816 +02:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] | Executed action "homework5.Controllers.CarController.GetCars (homework5)" in 0.8ms
+2022-06-19 12:10:18.816 +02:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] | Executed endpoint '"homework5.Controllers.CarController.GetCars (homework5)"'
+2022-06-19 12:10:18.816 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request finished in 1.5809ms 200 application/json; charset=utf-8
+2022-06-19 12:10:18.828 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request starting HTTP/2.0 GET https://localhost:44377/api/Car  
+2022-06-19 12:10:18.832 +02:00 [Information] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] | CORS policy execution successful.
+2022-06-19 12:10:18.832 +02:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] | Executing endpoint '"homework5.Controllers.CarController.GetCars (homework5)"'
+2022-06-19 12:10:18.832 +02:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] | Route matched with "{action = \"GetCars\", controller = \"Car\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetCars(Int32)" on controller "homework5.Controllers.CarController" ("homework5").
+2022-06-19 12:10:18.832 +02:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] | Executing ObjectResult, writing value of type '"homework5.Dtos.Car.GetAllCarsDto"'.
+2022-06-19 12:10:18.833 +02:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] | Executed action "homework5.Controllers.CarController.GetCars (homework5)" in 0.432ms
+2022-06-19 12:10:18.833 +02:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] | Executed endpoint '"homework5.Controllers.CarController.GetCars (homework5)"'
+2022-06-19 12:10:18.833 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request finished in 4.5485ms 200 application/json; charset=utf-8
+2022-06-19 12:10:28.036 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request starting HTTP/2.0 GET https://localhost:44377/api/Car?minPrice=0  
+2022-06-19 12:10:28.036 +02:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] | Executing endpoint '"homework5.Controllers.CarController.GetCars (homework5)"'
+2022-06-19 12:10:28.037 +02:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] | Route matched with "{action = \"GetCars\", controller = \"Car\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetCars(Int32)" on controller "homework5.Controllers.CarController" ("homework5").
+2022-06-19 12:10:28.038 +02:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] | Executing ObjectResult, writing value of type '"homework5.Dtos.Car.GetAllCarsDto"'.
+2022-06-19 12:10:28.038 +02:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] | Executed action "homework5.Controllers.CarController.GetCars (homework5)" in 1.4671ms
+2022-06-19 12:10:28.038 +02:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] | Executed endpoint '"homework5.Controllers.CarController.GetCars (homework5)"'
+2022-06-19 12:10:28.039 +02:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] | Request finished in 2.5059ms 200 application/json; charset=utf-8

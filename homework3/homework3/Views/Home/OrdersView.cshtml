@@ -1,0 +1,59 @@
+﻿@model IEnumerable<homework3.Models.Order>
+
+@{
+    ViewData["Title"] = "Historia Zamówień";
+}
+
+<h1>Zamówienia</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Id Pizzy
+            </th>
+            <th>
+                Miasto
+            </th>
+            <th>
+                Adres
+            </th>
+            <th>
+                Email
+            </th>
+            <th>
+                Numer Telefonu
+            </th>
+            <th>
+                Data zamówienia
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach (var item in Model)
+        {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.PizzaId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.City)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Address)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Email)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PhoneNumber)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.OrderDate)
+            </td>
+        </tr>
+        }
+    </tbody>
+</table>

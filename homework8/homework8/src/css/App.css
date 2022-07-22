@@ -1,0 +1,19 @@
+#main_box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    padding: 0px 150px 0px 150px;
+}
+
+#inputs {
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 150px 0px 150px;
+    margin-top: 80px;
+}
+
+#pizza_button {
+    font-size: 25px;
+}

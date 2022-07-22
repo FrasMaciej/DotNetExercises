@@ -1,0 +1,19 @@
+﻿@{
+    ViewData["Title"] = "Szczegóły";
+}
+
+<h1>Szczegóły filmu</h1>
+
+<h4>@Model.name</h4>
+<h4>Numer: @Model.id</h4>
+<img class="rounded" src="~/images/@Model.image" style="height:25rem" , width:18rem />
+<h5>Opis filmu</h5>
+<p>@Model.description</p>
+<h5 class="my-2">Bilet Normalny: @Model.normalTicketPrice zł</h5>
+<h5 class="my-3">Bilet Ulgowy: @Model.reducedTicketPrice zł</h5>
+
+<input type="button" class="btn btn-primary" value="Złóż Zamówienie" onclick="location.href='@Url.Action("CreateOrder", "Home", new {id = Model.id})'" />
+
+<hr />
+<a asp-action="AllFilms">Powrót</a>
+

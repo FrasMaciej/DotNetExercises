@@ -1,0 +1,58 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+
+@model IEnumerable<Car>
+
+@{ 
+    ViewData["Title"] = "Lista filmów";
+}
+
+<p>
+    @Html.ActionLink("Utwórz nowy", "Create", "Cars")
+</p>
+
+<table>
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Brand)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Model)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Mileage)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IsAvailable)
+            </th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach(var car in Model)
+        {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => car.Brand)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => car.Model)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => car.Mileage)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => car.IsAvailable)
+            </td>
+            <td>
+                @Html.ActionLink("Edytuj", "Edit", "Cars", routeValues: new { id = car.Id })
+                @Html.ActionLink("Usuń", "Delete", "Cars", routeValues: new { id = car.Id })
+
+            </td>
+        </tr>    
+        }
+    </tbody>
+
+</table>

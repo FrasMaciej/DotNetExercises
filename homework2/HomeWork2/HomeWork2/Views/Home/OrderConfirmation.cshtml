@@ -1,0 +1,43 @@
+﻿@model HomeWork2.Models.Order
+
+@{ 
+    ViewData["Title"] = "Potwierdzenie Zamówienia";
+}
+
+<h1>Potwierdzenie zamówienia</h1>
+<hr />
+<div>
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayName("Film")
+        </dt>
+        <dd class="col-sm-10">
+            @ViewBag.orderedFilm.name
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayName("Email")
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.email)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayName("Numer telefonu")
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.phone)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayName("Termin filmu")
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.filmTermin)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayName("Data zamówienia")
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.orderDate)
+        </dd>
+    </dl>
+</div>
+<a asp-action="Index">Powrót</a>

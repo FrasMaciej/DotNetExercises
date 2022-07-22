@@ -1,0 +1,28 @@
+.movie_box {
+    font-size: 20px;
+    font-weight: 300;
+    margin-right: 70px;
+    margin-bottom: 90px;
+    text-align: center;
+    width:  400px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 16px 20px 34px -9px rgba(66, 68, 90, 1);
+}
+
+.movie_box:hover {
+    background-color: rgba(0, 0, 0, 0.034);
+}
+
+.movie_img {
+    height: 100px;
+    height: 280px;
+    margin-bottom: 20px;
+}
+
+.movie_name {
+    font-size: 23px;
+    margin-bottom: 10px;
+}
+

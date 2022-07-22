@@ -1,0 +1,42 @@
+﻿@model Car
+
+@using (Html.BeginForm("Create", "Cars", FormMethod.Post))
+{
+    <div class="form-group">
+        @Html.LabelFor(model => model.Brand)
+        <div class="col-md">
+            @Html.TextBoxFor(model => model.Brand)
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.Model)
+        <div class="col-md">
+            @Html.TextBoxFor(model => model.Model)
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.Mileage)
+        <div class="col-md">
+            @Html.TextBoxFor(model => model.Mileage)
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.IsAvailable)
+        <div class="col-md">
+            @Html.TextBoxFor(model => model.IsAvailable)
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.PriceListId)
+        <div class="col-md">
+            @Html.TextBoxFor(model => model.PriceListId)
+        </div>
+    </div>
+
+    <input type="submit" value="Dodaj samochód" class="btn btn-primary" />
+
+}
